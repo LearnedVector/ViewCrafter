@@ -4,8 +4,8 @@ einops==0.6.1
 imageio==2.27.0
 imageio-ffmpeg==0.4.8
 torch==1.13.1
-torchvision
-kornia
+torchvision==0.14.1
+kornia==0.6.8
 matplotlib==3.9.2
 moviepy==1.0.3
 numpy==1.23.5
@@ -25,16 +25,18 @@ timm==0.6.13
 tqdm==4.65.0
 transformers==4.28.1
 trimesh==4.4.3
-xformers
+xformers==0.0.16
 gradio==3.37.0
 gradio_client==0.7.1
 omegaconf==2.3.0
-triton
+triton==3.0.0
 altair==5.4.0
-certifi==2024.7.4
+certifi==2023.7.22
 grpcio==1.66.0
 httpx==0.27.0
 Pygments==2.18.0
-starlette==0.38.2
-tifffile==2024.8.24
-yarl==1.9.4
+starlette==0.27.0       # Update to a compatible starlette version
+tifffile==2023.7.10
+yarl==1.9.2
+Jinja2>=3.1.0           # Add this line
+MarkupSafe>=2.1.0       # Add this line
